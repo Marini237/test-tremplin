@@ -14,8 +14,8 @@ Formulaire d'envoi de contact avec React + Node.js + MySQL + Docker.
 
 1. Cloner le projet :
 ```bash
-git clone https://github.com/Marini237/test-tremplin.git
-cd test-tremplin
+ - git clone https://github.com/Marini237/test-tremplin.git
+ - cd test-tremplin
 
 2. Lancer la base de données (Docker)
 
