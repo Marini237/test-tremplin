@@ -14,17 +14,17 @@ Formulaire d'envoi de contact avec React + Node.js + MySQL + Docker.
 
 1. Cloner le projet :
 ```bash
- - git clone https://github.com/Marini237/test-tremplin.git
- - cd test-tremplin
+git clone https://github.com/Marini237/test-tremplin.git
+cd test-tremplin
 
 2. Lancer la base de données (Docker)
-
+```bash
 docker compose up -d
 
 Vérifiez que les conteneurs db-1 (MySQL) et apache-1 sont bien lancés.
 
 3. Backend (Express)
-
+```bash
 cd backend
 npm install
 node server.js
@@ -32,7 +32,7 @@ node server.js
 Serveur écouté sur http://localhost:5000
 
 4. Frontend (React)
-
+```bash
 cd ../frontend
 npm install
 npm run dev
@@ -40,7 +40,7 @@ npm run dev
 Application disponible sur http://localhost:3000
 
 📂 Base de données
-
+```bash
 Accès PhpMyAdmin : http://localhost:8080
 
 Hôte : db
@@ -52,7 +52,7 @@ Mot de passe : verysecurepassword
 Table utilisée : messages_contact
 
 ✉️ Fonctionnalités
-
+```bash
 Validation des champs obligatoires
 
 Enregistrement des données dans MySQL
