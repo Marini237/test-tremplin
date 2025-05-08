@@ -57,3 +57,6 @@ Validation des champs obligatoires
 Enregistrement des données dans MySQL
 
 Design responsive et soigné
+
+## Vidéo
+https://github.com/user-attachments/assets/5d18a110-0d31-4fda-859d-8b2f12a93662
